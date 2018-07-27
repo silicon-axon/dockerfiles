@@ -1,4 +1,4 @@
-FROM ruby:2.4.3
+FROM ruby:2.4.4
 MAINTAINER Silicon Axon, hello@siliconaxon.com
 
 # throw errors if Gemfile has been modified since Gemfile.lock
