@@ -46,5 +46,11 @@ RUN pip install awscli==${AWS_CLI_VERSION}
 
 RUN mkdir -p /root/.aws
 
+# Install nmap
+RUN apk add nmap
+
+# Install tcpdump
+RUN apk add tcpdump
+
 # Cleanup
 RUN rm -rf ${SETUP_DIR}

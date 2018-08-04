@@ -2,7 +2,7 @@
 
 [Docker Hub](https://hub.docker.com/r/siliconaxon/toolbox/)
 
-Contains tools for your devops needs.
+Contains tools for your devops needs. Includes:
 
 * Terraform
 * Ansible
